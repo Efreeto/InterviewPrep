@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ex_removeWordsFromString.cpp">
+    <ClCompile Include="unique_chars_with_merged_sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

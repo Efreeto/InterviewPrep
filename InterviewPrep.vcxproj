@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ex_removeWordsFromString.cpp" />
+    <ClCompile Include="unique_chars_with_merged_sort.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{35FCB826-1FD4-41B9-AA8A-37E23763D46E}</ProjectGuid>
