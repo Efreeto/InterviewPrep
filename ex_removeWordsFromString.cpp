@@ -5,18 +5,18 @@
 
 using namespace std;
 
-int mgdain()
+int main()
 {
 	string s, r;
 	getline(cin, s);
 	getline(cin, r);
-	char* r_char = new char[r.size()+1];
-	r_char[r.size()] = '\0';
-	memcpy(r_char, r.c_str(), r.size());
+	//char* r_char = new char[r.size()+1];
+	//r_char[r.size()] = '\0';
+	//memcpy(r_char, r.c_str(), r.size());
 	bool flags[CHAR_LENGTH] = { 0 };
-	for (int i = 0; i < CHAR_LENGTH; i++)
+	for (int i = 0; i < r.size(); i++)
 	{
-		flags[r_char[i]] = true;
+		flags[r[i]] = true;
 	}
 
 	int src, dst=0;
@@ -28,6 +28,7 @@ int mgdain()
 			dst++;
 		}
 	}
+	s.erase(dst);
 	cout << s;
 	return 0;
 }
